@@ -49,13 +49,13 @@ protected:
 private:
 };
 
-GlobalVar::GlobalVar(void)
-{
-}
+// GlobalVar::GlobalVar(void)
+// {
+// }
 
-GlobalVar::~GlobalVar(void)
-{
-}
+// GlobalVar::~GlobalVar(void)
+// {
+// }
 
 
 #endif

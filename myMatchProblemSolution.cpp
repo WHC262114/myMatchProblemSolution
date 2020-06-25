@@ -1,6 +1,7 @@
 #include "myMatchProblemSolution.h"
 #include "order.h"
 #include "slab.h"
+#include "A_matchAll.h"
 #include <fstream>
 #include <iostream>
 #include <sstream>
@@ -343,6 +344,13 @@ void readYouchong()
             //cout << str << "；长度是：" << str.size() << endl;
         }
     }
+}
+
+void AlgAll(){
+    A_matchAll sm;
+    sm.SlabList = &globalVar.m_pSlabList;
+    sm.OrderList = &m_pOrderList;
+    sm.main(globalVar);
 }
 
 int main()
